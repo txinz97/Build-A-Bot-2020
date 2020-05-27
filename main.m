@@ -9,18 +9,21 @@ terra/chat
 terra/chat/app
 
 \ ###### Uncomment following lines when ready ##############
-\ include ./topics/env_bot_practices.m
+include ./topics/env-bot-practices.m
 \ include ./topics/env_bot_quiz.m
 \ include ./topics/env_bot_memes.m
 \ include ./topics/env_bot_websites.m
+\ include ./topics/bad-language.m
 
-idk: I'm sorry, what?
+\ idk: I'm sorry, what?
 
 : test 
   \ NOTE: Add your questions to test here.
-  "book" answer . cr
-  "mystery" answer . cr  
+  "practices" answer . cr
+  "random" answer . cr  "random" answer . cr  "random" answer . cr
   
+  "specific" answer . cr
+  "biggers" answer . cr "biggers" answer . cr "bigger things" answer . cr
 ;
 
 : publish 
@@ -32,7 +35,7 @@ idk: I'm sorry, what?
   background: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/1280px-Great_Wave_off_Kanagawa2.jpg
   
   \ Image of the avatar to use. 
-  avatar: 
+  avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/1280px-Great_Wave_off_Kanagawa2.jpg
 
   \ These will be visible when you share the link to your bot. 
   title: EnviroBot
@@ -45,7 +48,6 @@ idk: I'm sorry, what?
   \ The URL depends on this.
   publish: EnviroBot  
 ;
-
 
 
 
