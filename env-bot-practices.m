@@ -62,8 +62,10 @@ A: ${ count random_list } ${ count image }
 K: +count %
 --
 
+\ Currently, you can't add buttons with two words init (someone else on the group is having the same problem). still tryna figure it out.
+\ in the meantime, i used the following buttons:
 Q: $x.@specific
-A: What kind of $x ? ${ "Personal Consumption" button } ${ "Little Habits" button } ${ "Bigger Things" button }
+A: What kind of $x ? ${ "Consumption" button } ${ "Habits" button } ${ "Bigger_things" button }
 --
 
 Q: $consumption|$consumption+s
