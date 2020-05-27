@@ -9,6 +9,7 @@ terra/chat
 terra/chat/app
 
 \ ###### Uncomment following lines when ready ##############
+include ./topics/start.m
 include ./topics/env-bot-practices.m
 \ include ./topics/env_bot_quiz.m
 \ include ./topics/env_bot_memes.m
@@ -29,7 +30,7 @@ include ./topics/env-bot-practices.m
 : publish 
   \ What your bot says at first. 
   \ Maybe it could be good to write buttons to enter rooms. Else can keep it as it is now.
-  init: Hi there! I am EnviroBot, here to share some ideas on sustainable living! What would you like to discuss today? "Environmental Practices", "Environmental Quiz", "Environmental Memes", "Environmental Resources".
+  init: Hi there! I am EnviroBot, here to share some ideas on sustainable living! Type START to begin!
   
   \ The background image. Should be tileable/repeatable.
   background: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/1280px-Great_Wave_off_Kanagawa2.jpg
