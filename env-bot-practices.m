@@ -54,7 +54,7 @@ mem: count
 \ room: practices
 
 Q: $practices
-A: Do you want to see a specific practice? Or just a random one?
+A: Do you want to see a specific practice? Or just a random one? ${ "Random" button } ${ "Specific" button }
 --
 
 Q: $x.@random
@@ -63,7 +63,7 @@ K: +count %
 --
 
 Q: $x.@specific
-A: What kind of $x ? "Personal Consumption", "Little Habits", or "Bigger Things"?
+A: What kind of $x ? ${ "Personal Consumption" button } ${ "Little Habits" button } ${ "Bigger Things" button }
 --
 
 Q: $consumption|$consumption+s
