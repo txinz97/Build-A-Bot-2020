@@ -10,7 +10,7 @@ start: start begin enter
 assoc: pic 
 {{
    :start "Environmental Practices" button "Environmental Quiz" button concat 
-   "Environmental Memes" button concat "Environmental Resources" button concat
+   "Environmental Resources" button concat
 }} +pic
 
 
