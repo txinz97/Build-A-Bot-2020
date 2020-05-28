@@ -13,9 +13,8 @@
 \ This code will show some good environmental practices.
 
 \ 1. Formatting
-@: website blog scientific_data climate_conspiracy
+@: blog scientific_data climate_conspiracy
 
-website: website
 blog: blog
 scientific_data: scientific_data
 climate_conspiracy: climate_conspiracy
@@ -48,9 +47,9 @@ mem: count_a count_b
 }} +title
 \ 2. Q&A list, Rooms
 
-\ room: practices
+room: resources
 
-Q: $website
+Q: Gogo
 A: What website would interest you? ${ "Blog" button } ${ "Scientific Data" button } ${ "Climate Conspiracy" button }
 \ ${ "Scientific Data" button } ${ "Climate Conspiracy" button }
 --
@@ -80,4 +79,4 @@ A: Unfortunately I cannot find any websites for this! Still, it's always great t
 \ $x eat_list ids id! % ${ id title } by ${ id author } ${ id image }
 \ --
 
-\ end-room
+end-room
