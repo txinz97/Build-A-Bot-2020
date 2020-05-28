@@ -9,7 +9,7 @@
 @: Eat_it Throw_it Activism reduce_fw reuse_sb
 Eat_it: Eat_it
 Throw_it: Throw_it
-Activisim: Activism
+Activism: Activism
 reduce_fw: Reduce_Food_Waste
 reuse_sb: Reuse_Shopping_Bags
 \ random specific consumption habit bigger_thing
@@ -29,21 +29,17 @@ reuse_sb: Reuse_Shopping_Bags
 
 \ 2. Q&A list, Rooms
 
-\ room: practices
+room: quiz
 
-Q: quiz
-A: Do you want to try a quiz? ${ "Yes" button } ${ "No" button }
---
-
-Q: yes
-A: Alright, let's do this! Just answer these questions... to make it easy it's MCQ :) ${ "Start" button } ${ "No" button }
+Q: Gogo
+A: Alright, let's do this! Just answer these questions... to make it easy it's MCQ :) ${ "OK" button } ${ "No" button }
 --
 
 Q: no
 A: Alright, what would you like to discuss instead?
 --
 
-Q: Start
+Q: OK
 A: What is a green way to use kitchen scraps? ${ "Compost" button } ${ "Eat it" button } ${ "Throw it" button }
 --
 
@@ -65,3 +61,5 @@ Q: Continue
 A: All right, that's all the quizzes for today! You now know enough to become a green warrior! While you're at it, here's a website to calculate your carbon footprint to learn more: https://climatehero.me/
 \ Include a badge here if possible.
 --
+
+end-room
