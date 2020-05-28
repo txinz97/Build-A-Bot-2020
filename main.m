@@ -43,8 +43,7 @@ include ./topics/bot.m
   \ IMPORTANT!! Remember to insert your username.
   url: https://app.smojo.org/USERNAME/bot
   description: Man on a mission.
-  thumbnail: https://images.pexels.com/photos/3394658/pexels-photo-3394658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-  
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/2/21/Sadhguru-Jaggi-Vasudev.jpg
   \ name of your bot.
   \ The URL depends on this.
   publish: EnviroBot  
