@@ -11,20 +11,20 @@ terra/chat/app
 \ ###### Uncomment following lines when ready ##############
 include ./topics/start.m
 include ./topics/env-bot-practices.m
-\ include ./topics/env_bot_quiz.m
+include ./topics/env-bot-quiz.m
 \ include ./topics/env_bot_memes.m
-\ include ./topics/env_bot_websites.m
+include ./topics/env-bot-websites.m
 \ include ./topics/bad-language.m
+include ./topics/bot.m
 
 \ idk: I'm sorry, what?
 
 : test 
   \ NOTE: Add your questions to test here.
-  "practices" answer . cr
-  "random" answer . cr  "random" answer . cr  "random" answer . cr
+  "practice" answer . cr
+  "quiz" answer . cr
+  "quiz" answer . cr
   
-  "specific" answer . cr
-  "biggers" answer . cr "biggers" answer . cr "bigger things" answer . cr
 ;
 
 : publish 
@@ -36,7 +36,7 @@ include ./topics/env-bot-practices.m
   background: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/1280px-Great_Wave_off_Kanagawa2.jpg
   
   \ Image of the avatar to use. 
-  avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/1280px-Great_Wave_off_Kanagawa2.jpg
+  avatar: https://upload.wikimedia.org/wikipedia/commons/2/21/Sadhguru-Jaggi-Vasudev.jpg
 
   \ These will be visible when you share the link to your bot. 
   title: EnviroBot
@@ -49,7 +49,3 @@ include ./topics/env-bot-practices.m
   \ The URL depends on this.
   publish: EnviroBot  
 ;
-
-
-
-
