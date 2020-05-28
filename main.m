@@ -10,11 +10,10 @@ terra/chat/app
 
 \ ###### Uncomment following lines when ready ##############
 include ./topics/start.m
+include ./topics/bad-language.m
 include ./topics/env-bot-practices.m
 include ./topics/env-bot-quiz.m
-\ include ./topics/env_bot_memes.m
 include ./topics/env-bot-websites.m
-\ include ./topics/bad-language.m
 include ./topics/bot.m
 
 \ idk: I'm sorry, what?
