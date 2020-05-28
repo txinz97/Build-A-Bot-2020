@@ -6,10 +6,8 @@
 \ This code will show some good environmental practices.
 
 \ 1. Formatting
-@: practices random specific consumption habit bigger_thing
+@: random specific consumption habit bigger_thing
 \ eat drink
-
-practices: practices
 
 random: anything random any
 
@@ -51,9 +49,9 @@ mem: count
 
 \ 2. Q&A list, Rooms
 
-\ room: practices
+room: practices
 
-Q: $practices
+Q: Gogo
 A: Do you want to see a specific practice? Or just a random one? ${ "Random" button } ${ "Specific" button }
 --
 
@@ -67,25 +65,18 @@ K: +count %
 Q: $x.@specific
 A: What kind of $x ? ${ "Consumption" button } ${ "Habits" button } ${ "Bigger_things" button }
 --
-
 Q: $consumption|$consumption+s
 A: ${ 1 random_list } ${ 1 image }; ${ 2 random_list } ${ 2 image }
 --
-
 Q: $habit|$habit+s
 A: ${ 3 random_list } ${ 3 image }; ${ 4 random_list } ${ 4 image }; ${ 5 random_list } ${ 5 image }; ${ 6 random_list } ${ 6 image }
 --
-
 Q: $bigger_thing|$bigger_thing+s
 A: ${ 7 random_list } ${ 7 image }; ${ 8 random_list } ${ 8 image }
 --
 \ ### TO PUT IN THE bot.m file after all micro-topics are done!
-Q: $_
-A: Looks like you don't want to talk about Environmental Practices anymore! Shall we move to another topic?
-L: ${ last-question }
---
 \ Q: $x.@eat
 \ $x eat_list ids id! % ${ id title } by ${ id author } ${ id image }
 \ --
 
-\ end-room
+end-room
