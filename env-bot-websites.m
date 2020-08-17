@@ -59,13 +59,9 @@ room: resources
 Q: Gogo
 A: What website would interest you? ${ "Blog" button } ${ "Scientific Data" button } ${ "Climate Conspiracy" button }
 --
-
-\ Currently, you can't add buttons with two words in it (someone else on the group is having the same problem). still tryna figure it out.
-\ in the meantime, i used the following buttons:
 Q: $x.@blog
-\ A: Try this!
-A: count_a 3 < % ${ count_a title_a } ${ count_a site_a } ... ${ "Another" button }?
-A: count_a 3 >= % ${ 3 title_a } ${ 3 site_a } <br> Or.. ${ "Scientific Data" button } ${ "Climate Conspiracy" button } <br><br> Now let's try something else! <br> ${ "Environmental Practices" button }  ${ "Environmental Quiz" button }
+A: count_a 4 < % ${ count_a title_a } ${ count_a site_a } ... ${ "Another" button }?
+A: count_a 4 >= % ${ 3 title_a } ${ 4 site_a } <br> Or.. ${ "Scientific Data" button } ${ "Climate Conspiracy" button } <br><br> Now let's try something else! <br> ${ "Environmental Practices" button }  ${ "Environmental Quiz" button }
 K: +count_a %
 --
 
@@ -78,13 +74,5 @@ K: +count_b %
 Q: $climate_conspiracy
 A: Unfortunately I cannot find any websites for this! Still, it's always great to have a questioning mind - as it stands, we currently do not know a lot of things for certain! Indeed, there is a video called "The Great Global Warming Swindle"! Check it out here: https://www.youtube.com/watch?v=oYhCQv5tNsQ <br> Next, maybe <br> ${ "Blog" button } ${ "Scientific Data" button } <br><br> Now let's try something else! <br> ${ "Environmental Practices" button }  ${ "Environmental Quiz" button }
 --
-\ ### TO PUT IN THE bot.m file after all micro-topics are done!
-\ Q: $_
-\ A: Looks like you don't want to talk about Environmental Websites anymore! Shall we move to another topic?
-\ L: ${ last-question }
-\ --
-\ Q: $x.@eat
-\ $x eat_list ids id! % ${ id title } by ${ id author } ${ id image }
-\ --
 
 end-room
