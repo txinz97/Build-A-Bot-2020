@@ -15,4 +15,4 @@ Overarching files:
 2. main.m: Depicts overarching structure of chatbot and other misc. features eg display icon, shareable link, url
 3. start.m: Welcome screen seen by user which displays the list of features.
 
-Check out the bot here: app.smojo.org/txinz97/EnviroBot
+Check out the bot here: http://app.smojo.org/txinz97/EnviroBot
