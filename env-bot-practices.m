@@ -16,10 +16,7 @@ habit: little habit little_habit
 bigger_thing: bigger thing bigger_thing
 
 
-
-
 assoc: random_list image
-
 
 
 mem: count
@@ -82,15 +79,4 @@ A: ${ 3 random_list } ${ 3 image } ${ "Another" button }; ${ 4 random_list } ${ 
 Q: $bigger_thing|$bigger_thing+s
 A: ${ 7 random_list } ${ 7 image } ${ "Another" button } 
 --
-
-\ ### TO PUT IN THE bot.m file after all micro-topics are done!
-
-\ Q: $x.@eat
-
-\ $x eat_list ids id! % ${ id title } by ${ id author } ${ id image }
-
-\ --
-
-
-
 end-room
